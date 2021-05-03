@@ -1,4 +1,5 @@
 Basic HATEOAS http calls webservice built using RESTEasy JAX-RS & JAXB, consumes XML uses web.xml
+
 mapped using @ApplicationPath, @Path
              @XmlRootElement, @XmlAccessorType
              
@@ -34,3 +35,5 @@ PUT
 	}
 DELETE
 	/RestAPIExample1/network-management/configurations/3
+	
+Right-click on Project-> Properties-> Project Facets set JaxRs/Dynamic/Java/JavaScript
