@@ -19,7 +19,7 @@ import javax.ws.rs.core.UriInfo;
 import common.Message;
 import common.Status;
 import resources.Configuration;
-import resources.Configurations;
+import resources.ConfigurationsLinks;
 import similulation.ConfigurationDB;
  
 /**
@@ -42,11 +42,11 @@ public class ConfigurationResource
      * Get configurations collection resource mapped at path "HTTP GET /configurations"
      * */
     @GET
-    public Configurations getConfigurations() {
+    public ConfigurationsLinks getConfigurations() {
           
         List<Configuration> list = ConfigurationDB.getAllConfigurations();
           
-        Configurations configurations = new Configurations();
+        ConfigurationsLinks configurations = new ConfigurationsLinks();
         configurations.setConfigurationsList(list);
         configurations.setSize(list.size());
           

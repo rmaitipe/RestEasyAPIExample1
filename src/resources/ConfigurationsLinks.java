@@ -12,7 +12,7 @@ import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
  
 @XmlRootElement(name = "configurations")
 @XmlAccessorType(XmlAccessType.FIELD)
-public class Configurations 
+public class ConfigurationsLinks
 {
     @XmlAttribute
     private Integer size;

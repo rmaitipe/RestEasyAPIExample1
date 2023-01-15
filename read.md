@@ -1,8 +1,9 @@
-Basic HATEOAS http calls webservice built using RESTEasy JAX-RS & JAXB, consumes XML uses web.xml
+Basic http calls webservice built using RESTEasy JAX-RS & JAXB, consumes XML and uses web.xml
+mapped using @ApplicationPath, @Path @XmlRootElement, @XmlAccessorType
 
-mapped using @ApplicationPath, @Path
-             @XmlRootElement, @XmlAccessorType
-             
+
+https://www.baeldung.com/resteasy-tutorial
+
 RestAPIExample1 is the Registered web context set in web project settings.
 GET
 	/RestAPIExample1/network-management/configurations
